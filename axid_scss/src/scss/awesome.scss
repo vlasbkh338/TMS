@@ -1,17 +1,17 @@
 .awesome {
     padding: 100px 0;
-    .awesome__section-name {
+    &__section-name {
         margin-bottom: 80px;
     }
-    .awesome__list {
+    &__list {
         display: flex;
         justify-content: space-between;
     }
-    .awesome__item {
+    &__item {
         padding: 0 15px;
         text-align: center;
     }
-    .awesom__icon {
+    &__icon {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -23,18 +23,18 @@
         color: #ff9b51;
         margin: 0 auto 30px;
     }
-    .awesom__icon:hover {
+    &__icon:hover {
         color: black;
         font-size: 39px;
         border-color: black;
     }
-    .awesone__text {
+    &__text {
         font-size: 14px;
         font-family: "Open Sans";
         color: rgb(134, 135, 139);
         line-height: 1.429;
     }
-    .awesom__titel {
+    &__title {
         margin-bottom: 30px;
     }
 }
