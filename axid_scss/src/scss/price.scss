@@ -81,10 +81,17 @@
             font-weight: bold;
             line-height: 1.714;
         }
-        // &__list {
-        //     @media (max-width: 1140px) {
-        //         display: flex;
-        //         align-items: center;
-        //     }
-        // }
+    }
+    
+    @media (max-width: 1140px) {
+        .price {
+            &__list {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            &__item {
+                padding-bottom: 30px;
+            }
+        }
     }

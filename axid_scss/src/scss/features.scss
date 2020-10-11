@@ -52,87 +52,35 @@
             flex-direction: column;
             align-items: center;
         }
-        &__list {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+        // &__list {
+        //     display: flex;
+        //     flex-direction: column;
+        //     align-items: center;
+        // }
+        &__button {
+            width: 30%;
+            height: 30%;
+            border-radius: 2px;
+            margin-right: 5px;
         }
         &__tabs {
-            margin-right: 0;
             display: flex;
-            justify-content: center;
-            margin-bottom: 30px;
+            justify-content: space-between;
+            margin: 0 30px 30px;
         }
-        &__item {
+        &__item_visible {
             display: flex;
             flex-direction: column;
             align-items: center;
+        }
+        &__title {
+            text-align: center;
+            padding: 0 5px;
             margin-bottom: 30px;
         }
         &__text {
-            padding-left: 50px;
-            margin-bottom: 30px;
-        }
-    }
-}
-
-@media (max-width: 960px) {
-    .features {
-        &__container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        &__list {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        &__tabs {
-            margin-right: 0;
-            display: flex;
-            justify-content: center;
-            margin-bottom: 30px;
-        }
-        &__item {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-bottom: 30px;
-        }
-        &__text {
-            padding-left: 50px;
-            margin-bottom: 30px;
-        }
-    }
-}
-
-@media (max-width: 576px) {
-    .features {
-        &__container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        &__list {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        &__tabs {
-            margin-right: 0;
-            display: flex;
-            justify-content: center;
-            margin-bottom: 30px;
-        }
-        &__item {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-bottom: 30px;
-        }
-        &__text {
-            padding-left: 50px;
+            text-align: center;
+            padding: 0 5px;
             margin-bottom: 30px;
         }
     }
